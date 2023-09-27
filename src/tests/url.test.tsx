@@ -20,7 +20,7 @@ describe("Url", () => {
       "https://drive.google.com/file/d/124lqnR8rv6PIBAls-fs7QwTY35qLPAf7/view"
     );
     await user.click(buttonElement);
-    const qr = screen.getByRole("img");
-    expect(qr).toBeInTheDocument();
+    const imageElement = screen.getByRole("img");
+    expect(imageElement).toBeInTheDocument();
   });
 });
