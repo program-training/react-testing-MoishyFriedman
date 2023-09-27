@@ -1,10 +1,10 @@
 import "./App.css";
-import { Example } from "./components/Example/Example";
+import { Url } from "../src/components/Url/url";
 
 function App() {
   return (
     <>
-      <Example />{" "}
+      <Url />
     </>
   );
 }
